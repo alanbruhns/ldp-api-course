@@ -1,0 +1,64 @@
+# Terraform files
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+terraform/crash.log
+terraform/*.tfplan
+terraform/override.tf
+terraform/override.tf.json
+terraform/*_override.tf
+terraform/.terraformrc
+terraform/terraform.rc
+
+# Helm chart files
+helm/*.tgz
+helm/charts/
+helm/tmpcharts/
+helm/*.lock
+helm/.DS_Store
+helm/Chart.lock
+
+# Docker files
+src/SomeApi/Dockerfile.*
+
+# .NET Core files
+src/SomeApi/SomeApi.Api/bin/
+src/SomeApi/SomeApi.Api/obj/
+src/SomeApi/SomeApi.Api/*.csproj.user
+src/SomeApi/SomeApi.Api/*.userprefs
+
+# Build and Publish outputs
+src/SomeApi/SomeApi.Api/*.publish/
+src/SomeApi/SomeApi.Api/*.out/
+
+# Visual Studio
+.vs/
+.vscode/
+src/SomeApi/SomeApi.Api/*.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Log and Debug files
+*.log
+logs/
+*.tlog
+*.dmp
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
