@@ -1,0 +1,6 @@
+dependencies:
+- name: ldp-api
+  repository: file://../../ldp-platform-helm/ldp-api
+  version: 0.1.0
+digest: sha256:596f80984abe99a3b4dd9c0bfe4405e96d115e83f4ed3c0fd65ba0112b4b3688
+generated: "2024-09-16T08:10:24.0502008-03:00"
